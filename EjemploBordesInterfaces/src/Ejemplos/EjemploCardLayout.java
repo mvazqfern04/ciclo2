@@ -82,6 +82,7 @@ public class EjemploCardLayout extends javax.swing.JFrame {
         ResultadoPanel.setLayout(new java.awt.CardLayout());
 
         botones.setBackground(new java.awt.Color(255, 204, 255));
+        botones.setAutoscrolls(true);
 
         javax.swing.GroupLayout botonesLayout = new javax.swing.GroupLayout(botones);
         botones.setLayout(botonesLayout);
