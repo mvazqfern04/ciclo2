@@ -2,19 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ejemplos.crearhilos;
+package ejercicioComecocosHIloParalelo;
+
+import javax.swing.JOptionPane;
 
 /**
  *
  * @author node
  */
-public class HiloEjercicio extends Thread{
+public class VentanaRunable extends Thread{
 
     @Override
     public void run() {
-        try{
-            while(this)
-        }ca
+        JOptionPane.showMessageDialog(null, "Moviendo el comecocos...");
+
     }
-    
+
 }
